@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PHAPIDelegate.h"
 
-@interface PHViewController : UIViewController
+@interface PHViewController : UIViewController <PHAPIDelegate, UITextFieldDelegate>
+
+//-(void)startNewGame;
+
+-(void)hasData:(NSDictionary *)songToUse;
 
 @end

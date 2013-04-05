@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B48EF00F16EBBD14003DDDA0 /* PHRules.m in Sources */ = {isa = PBXBuildFile; fileRef = B48EF00E16EBBD14003DDDA0 /* PHRules.m */; };
+		B48EF01216EBBD2E003DDDA0 /* PHGameData.m in Sources */ = {isa = PBXBuildFile; fileRef = B48EF01116EBBD2E003DDDA0 /* PHGameData.m */; };
+		B48EF01516ED3803003DDDA0 /* PHConnectionAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B48EF01416ED3803003DDDA0 /* PHConnectionAPI.m */; };
+		B48EF04916EDAE16003DDDA0 /* marcelineSad.png in Resources */ = {isa = PBXBuildFile; fileRef = B48EF04816EDAE16003DDDA0 /* marcelineSad.png */; };
+		B48EF13216EDB494003DDDA0 /* marcelineGameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = B48EF12D16EDB494003DDDA0 /* marcelineGameOver.png */; };
+		B48EF13316EDB494003DDDA0 /* marcelineGettingSad.png in Resources */ = {isa = PBXBuildFile; fileRef = B48EF12E16EDB494003DDDA0 /* marcelineGettingSad.png */; };
+		B48EF13416EDB494003DDDA0 /* marcelineHappy.png in Resources */ = {isa = PBXBuildFile; fileRef = B48EF12F16EDB494003DDDA0 /* marcelineHappy.png */; };
+		B48EF13516EDB494003DDDA0 /* marcelineLostAString.png in Resources */ = {isa = PBXBuildFile; fileRef = B48EF13016EDB494003DDDA0 /* marcelineLostAString.png */; };
+		B48EF13616EDB494003DDDA0 /* marcelineStillHappyButNot.png in Resources */ = {isa = PBXBuildFile; fileRef = B48EF13116EDB494003DDDA0 /* marcelineStillHappyButNot.png */; };
 		B4C342BF16E996AC009A3CE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C342BE16E996AC009A3CE1 /* UIKit.framework */; };
 		B4C342C116E996AC009A3CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C342C016E996AC009A3CE1 /* Foundation.framework */; };
 		B4C342C316E996AC009A3CE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C342C216E996AC009A3CE1 /* CoreGraphics.framework */; };
@@ -21,6 +30,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B48EF00D16EBBD14003DDDA0 /* PHRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHRules.h; sourceTree = "<group>"; };
+		B48EF00E16EBBD14003DDDA0 /* PHRules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHRules.m; sourceTree = "<group>"; };
+		B48EF01016EBBD2E003DDDA0 /* PHGameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGameData.h; sourceTree = "<group>"; };
+		B48EF01116EBBD2E003DDDA0 /* PHGameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGameData.m; sourceTree = "<group>"; };
+		B48EF01316ED3803003DDDA0 /* PHConnectionAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHConnectionAPI.h; sourceTree = "<group>"; };
+		B48EF01416ED3803003DDDA0 /* PHConnectionAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHConnectionAPI.m; sourceTree = "<group>"; };
+		B48EF01616ED44EC003DDDA0 /* PHAPIDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHAPIDelegate.h; sourceTree = "<group>"; };
+		B48EF04816EDAE16003DDDA0 /* marcelineSad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marcelineSad.png; sourceTree = "<group>"; };
+		B48EF12D16EDB494003DDDA0 /* marcelineGameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marcelineGameOver.png; sourceTree = "<group>"; };
+		B48EF12E16EDB494003DDDA0 /* marcelineGettingSad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marcelineGettingSad.png; sourceTree = "<group>"; };
+		B48EF12F16EDB494003DDDA0 /* marcelineHappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marcelineHappy.png; sourceTree = "<group>"; };
+		B48EF13016EDB494003DDDA0 /* marcelineLostAString.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marcelineLostAString.png; sourceTree = "<group>"; };
+		B48EF13116EDB494003DDDA0 /* marcelineStillHappyButNot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marcelineStillHappyButNot.png; sourceTree = "<group>"; };
 		B4C342BB16E996AC009A3CE1 /* ExecuteTheExecutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExecuteTheExecutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C342BE16E996AC009A3CE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B4C342C016E996AC009A3CE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,7 +107,14 @@
 			children = (
 				B4C342CD16E996AC009A3CE1 /* PHAppDelegate.h */,
 				B4C342CE16E996AC009A3CE1 /* PHAppDelegate.m */,
+				B48EF01316ED3803003DDDA0 /* PHConnectionAPI.h */,
+				B48EF01416ED3803003DDDA0 /* PHConnectionAPI.m */,
+				B48EF01616ED44EC003DDDA0 /* PHAPIDelegate.h */,
 				B4C342D616E996AC009A3CE1 /* MainStoryboard.storyboard */,
+				B48EF00D16EBBD14003DDDA0 /* PHRules.h */,
+				B48EF00E16EBBD14003DDDA0 /* PHRules.m */,
+				B48EF01016EBBD2E003DDDA0 /* PHGameData.h */,
+				B48EF01116EBBD2E003DDDA0 /* PHGameData.m */,
 				B4C342D916E996AC009A3CE1 /* PHViewController.h */,
 				B4C342DA16E996AC009A3CE1 /* PHViewController.m */,
 				B4C342C516E996AC009A3CE1 /* Supporting Files */,
@@ -96,6 +125,12 @@
 		B4C342C516E996AC009A3CE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B48EF12D16EDB494003DDDA0 /* marcelineGameOver.png */,
+				B48EF12E16EDB494003DDDA0 /* marcelineGettingSad.png */,
+				B48EF12F16EDB494003DDDA0 /* marcelineHappy.png */,
+				B48EF13016EDB494003DDDA0 /* marcelineLostAString.png */,
+				B48EF13116EDB494003DDDA0 /* marcelineStillHappyButNot.png */,
+				B48EF04816EDAE16003DDDA0 /* marcelineSad.png */,
 				B4C342C616E996AC009A3CE1 /* ExecuteTheExecutor-Info.plist */,
 				B4C342C716E996AC009A3CE1 /* InfoPlist.strings */,
 				B4C342CA16E996AC009A3CE1 /* main.m */,
@@ -164,6 +199,12 @@
 				B4C342D316E996AC009A3CE1 /* Default@2x.png in Resources */,
 				B4C342D516E996AC009A3CE1 /* Default-568h@2x.png in Resources */,
 				B4C342D816E996AC009A3CE1 /* MainStoryboard.storyboard in Resources */,
+				B48EF04916EDAE16003DDDA0 /* marcelineSad.png in Resources */,
+				B48EF13216EDB494003DDDA0 /* marcelineGameOver.png in Resources */,
+				B48EF13316EDB494003DDDA0 /* marcelineGettingSad.png in Resources */,
+				B48EF13416EDB494003DDDA0 /* marcelineHappy.png in Resources */,
+				B48EF13516EDB494003DDDA0 /* marcelineLostAString.png in Resources */,
+				B48EF13616EDB494003DDDA0 /* marcelineStillHappyButNot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +218,9 @@
 				B4C342CB16E996AC009A3CE1 /* main.m in Sources */,
 				B4C342CF16E996AC009A3CE1 /* PHAppDelegate.m in Sources */,
 				B4C342DB16E996AC009A3CE1 /* PHViewController.m in Sources */,
+				B48EF00F16EBBD14003DDDA0 /* PHRules.m in Sources */,
+				B48EF01216EBBD2E003DDDA0 /* PHGameData.m in Sources */,
+				B48EF01516ED3803003DDDA0 /* PHConnectionAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +343,7 @@
 				B4C342E016E996AC009A3CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
